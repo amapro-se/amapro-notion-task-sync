@@ -5,7 +5,7 @@
   "repository": "https://github.com/amapro-se/amapro-notion-task-sync.git",
   "author": "moonhr <moonhr153@gmail.com>",
   "scripts": {
-    "seed": "node scripts/notion-seed.js"
+    "seed": "node scripts/notion_seed.js"
   },
   "license": "MIT",
   "dependencies": {
