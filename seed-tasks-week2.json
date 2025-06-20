@@ -1,0 +1,13 @@
+[
+  { "Name": "공모전 리스트·카드 와이어프레임",     "Role": "디자인",    "Priority": "P1", "Estimate(h)": 5, "Due": "2025-07-04", "Progress": 0, "Milestone": "MVP" },
+  { "Name": "모바일·데스크톱 반응형 레이아웃 시안","Role": "디자인",    "Priority": "P1", "Estimate(h)": 4, "Due": "2025-07-05", "Progress": 0, "Milestone": "MVP" },
+
+  { "Name": "환경변수 & 런타임 설정",             "Role": "프론트엔드","Priority": "P1", "Estimate(h)": 4, "Due": "2025-07-02", "Progress": 0, "Milestone": "MVP" },
+  { "Name": "Supabase AuthProvider 연결",          "Role": "프론트엔드","Priority": "P1", "Estimate(h)": 4, "Due": "2025-07-03", "Progress": 0, "Milestone": "MVP" },
+  { "Name": "기본 레이아웃(헤더·푸터·토스트)",      "Role": "프론트엔드","Priority": "P1", "Estimate(h)": 4, "Due": "2025-07-05", "Progress": 0, "Milestone": "MVP" },
+
+
+  { "Name": "Config 모듈 (.env → ConfigService)", "Role": "백엔드",    "Priority": "P1", "Estimate(h)": 4, "Due": "2025-07-01", "Progress": 0, "Milestone": "MVP" },
+  { "Name": "/auth/signup·login + JWT",            "Role": "백엔드",    "Priority": "P1", "Estimate(h)": 4, "Due": "2025-07-03", "Progress": 0, "Milestone": "MVP" },
+  { "Name": "/competitions GET 목록 API",          "Role": "백엔드",    "Priority": "P1", "Estimate(h)": 4, "Due": "2025-07-05", "Progress": 0, "Milestone": "MVP" }
+]

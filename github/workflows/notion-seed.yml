@@ -1,0 +1,21 @@
+name: Seed Notion DB
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: [ 'seed-tasks-week1.json' ]
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - run: npm run seed
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}

@@ -1,0 +1,11 @@
+[
+  { "Name": "서비스 사용자 플로우 다이어그램",     "Role": "디자인",    "Priority": "P1", "Estimate(h)": 4, "Due": "2025-06-24", "Progress": 0, "Milestone": "MVP" },
+  { "Name": "UI 토큰 정의 & Tailwind 매핑",        "Role": "디자인",    "Priority": "P1", "Estimate(h)": 3, "Due": "2025-06-25", "Progress": 0, "Milestone": "MVP" },
+  { "Name": "로그인∙회원가입 페이지 와이어프레임",  "Role": "디자인",    "Priority": "P1", "Estimate(h)": 4, "Due": "2025-06-27", "Progress": 0, "Milestone": "MVP" },
+
+  { "Name": "Next.js 15 부트스트랩 & Lint 세팅",   "Role": "프론트엔드","Priority": "P1", "Estimate(h)": 6, "Due": "2025-06-25", "Progress": 0, "Milestone": "MVP" },
+  { "Name": "Tailwind·Storybook 초기화",           "Role": "프론트엔드","Priority": "P1", "Estimate(h)": 4, "Due": "2025-06-27", "Progress": 0, "Milestone": "MVP" },
+
+  { "Name": "Nest.js 프로젝트 초기화 & Prettier",  "Role": "백엔드",    "Priority": "P1", "Estimate(h)": 4, "Due": "2025-06-24", "Progress": 0, "Milestone": "MVP" },
+  { "Name": "Supabase 스키마(users, competitions)", "Role": "백엔드",   "Priority": "P1", "Estimate(h)": 5, "Due": "2025-06-26", "Progress": 0, "Milestone": "MVP" }
+]
