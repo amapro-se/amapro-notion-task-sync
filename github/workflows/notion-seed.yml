@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-    paths: [ 'seed-tasks-week1.json' ]
 
 jobs:
   seed:

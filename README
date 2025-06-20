@@ -1,0 +1,32 @@
+# amapro-notion-task-sync
+
+📌 Notion과 연동된 작업 자동화 도구
+
+이 프로젝트는 Amapro 프로젝트의 주간 작업 목록을 Notion 데이터베이스에 자동으로 업로드하기 위한 도구입니다. JSON 형식의 task 파일을 기반으로 GitHub Actions를 통해 Notion DB를 동기화합니다.
+
+## 주요 기능
+
+- JSON 기반 작업 리스트 관리 (`seed-tasks-week.json`)
+- Notion API를 통한 데이터베이스 동기화
+- GitHub Actions를 통한 자동화 배포 (Push or 수동 실행)
+
+## 사용 기술
+
+- Node.js (ES Module)
+- Notion API (`@notionhq/client`)
+- GitHub Actions (CI 자동화)
+
+## 설정 방법
+
+1. `.env` 파일 또는 GitHub Actions Secrets에 다음 항목 추가:
+NOTION_TOKEN=your_secret_token
+NOTION_DATABASE_ID=your_database_id
+2. `seed_tasks.json` 파일 수정 후 push  
+→ 자동으로 Notion DB에 작업 항목이 등록됩니다.
+
+## 실행 방법 (로컬)
+
+```bash
+npm install
+npm run seed
+```
